@@ -126,18 +126,6 @@ You can then use this code and adapt it to run through the models again looking 
 * `ggRandomForests`
 
 ```{r}
-
-install.packages("rpart")
-install.packages("partykit")
-install.packages("party")
-install.packages("reshape2")
-install.packages("randomForestSRC")
-install.packages("ggRandomForests")
-
-```
-
-
-```{r}
 library(rpart)
 library(partykit)
 library(reshape2)
@@ -628,7 +616,7 @@ plot(gg_v_mcs, xvar_mcs = xvar_mcs, panel = TRUE, alpha = 0.4) +
 ---
 
 ### ** Link to Github repo for Homework 7 ***
-<https://github.com/lpgleason/N741Spring2018_Homework7.git>(https://github.com/lpgleason/N741Spring2018_Homework7.git)
+[https://github.com/lpgleason/N741Spring2018_Homework7.git](https://github.com/lpgleason/N741Spring2018_Homework7.git)
 
 ---
 
